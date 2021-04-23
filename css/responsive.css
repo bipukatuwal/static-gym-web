@@ -1,0 +1,87 @@
+@media only screen and (max-width: 1150px) {
+ .navbar{
+   height: 150vh;
+ }
+.navbar-header{
+  display: flex;
+  flex-direction: column;
+  height: 250px;
+  
+  
+}
+
+.nav-item{
+  list-style: none;
+ 
+  display: flex;
+  flex-direction: column;
+
+
+}
+.nav-item ul{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 0px;
+ 
+
+}
+.nav-img{
+  display: none;
+}
+
+.nav-item ul li{
+  padding: 0px 10px;
+  margin: 4px 24px;
+}
+.input-btn{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-right: 163px;
+  margin-top: 0px;
+}
+#btn-search{
+  color: #040303;
+  background-color: honeydew;
+  font-size: 12px;
+  font-family: 'Ubuntu', sans-serif;
+  border: 2px solid #000000;
+  border-radius: 8px;
+  padding: 7px 7px;
+  cursor: pointer;
+  margin-left: 0px;
+}
+}
+
+@media only screen and (max-width : 600px){
+
+  .contact-section{
+    height: 570px;
+   
+    background-color: rgb(33 30 32);
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   flex-direction: column;
+   
+}
+.form-contact input, textarea{
+  padding: 11px 134px;
+  margin: 10px 10px;
+  width: 120px;
+  border: 2px solid black;
+  border-radius: 6px;
+  color: #21201f
+}
+
+
+
+}
+
+@media only screen and (max-width : 464px){
+
+
+}
+
